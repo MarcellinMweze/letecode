@@ -69,7 +69,7 @@
     padding: 20px 0 10px 0;
     text-align: center;
     height: 200px;
-    margin-top: 15px;
+    margin:20px 0 40px 0;
      
 }
 
@@ -95,58 +95,115 @@
     font-weight: bold;
 }
 
+.titre{
+    margin:20px 0;
+}
+
 .section1{
     width: 100%;
     background-color: #eeee;
+    padding: 15px 0 ;
 }
 
 .imgtxt{
     display: flex;
     align-items: center;
-    width: 70%;
-    margin: 0 auto;
-    max-width: 1300px;
-    justify-content: space-between;
+    width: 100%;
+    margin: 10px auto ;
+    max-width: 1100px;
+    text-align: justify;    
+}
+
+.txt {
+    width: 50%;
+}
+
+.txt h2{
+    margin-bottom: 10px;
 }
 
 .cimg .img{
-    height: 150px;
-    width: 300px;
+    width: 50%;
 }
-
-.txt h2 p{
-    width: 100px;
-} 
 
 .section2{
-    margin: 0 100px 0 200px;
+    width: 100%;
+    margin: 20px auto;
     text-align: justify;
-    
-}
-
-h2 h3{
-    margin-bottom: 30px;
+    max-width: 1100px;
 }
 
 .footer{
     display: flex;
     background-color: #0f2243;
     height: 150px;
+    width: 100% ;
     color: white;
     align-items: center;
-    padding-left: 200px;
     
+}
+
+.txtfooter{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Fin de la première page index en css */
 
 /* Début de la deuxième page communauté en css */
 
-.logopyton{
-    width: 200px;
-    height: 200px;
-    border: 1px solid #3dbaf3;
+
+
+.flex-comm{
+    background-color: #eeee;
+
 }
+
+.communaute{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.txtcom{
+    width: 60%;
+    
+}
+
+.txtcom h2{
+    margin-bottom: 10px;
+}
+
+.img-pyton{
+    width: 40%;
+    margin-left: 200px ;
+    
+}
+
+.flex-membre{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+        
+}
+
+.imgmembre{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.photom{
+    width: 250px;
+    height: 250px;
+    border: #3dbaf3;
+    border-radius: 50%;
+}
+
+
 
 
 /* Fin de la deuxième page Communauté en css */
@@ -156,16 +213,16 @@ h2 h3{
 
 .flexbox{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap; 
-    width: 80%; 
+    width: 100%; 
     margin:10px auto;
     max-width: 1300px;
        
 }
 
 .flexbox-item{
-    width: 300px;
+    width: 330px;
     height: 300px;
     margin:15px;
     overflow: hidden;
@@ -173,7 +230,7 @@ h2 h3{
 }
 
 .flexbox-item .img-logo{
-    width: 250px;
+    width: 300px;
     height: 240px;
     margin: 3px 25px;
     box-shadow: -1px 1px 4px rgb(22, 21, 21);
@@ -186,48 +243,38 @@ h2 h3{
 
 .paracours{
     display: flex;
-    width: 67%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1110px;
     margin: 30px auto 0px;
 }
 
 .seceng{
     background-color: #eeee;
-    width: 100%;
-    margin:0px auto;
-    height: auto;
+        
 }
 
 .boitelettre{
     display: flex;
-    width: 70%;
-    justify-content: space-between;
-    margin:0px auto;
-    max-width: 1000px;
+    width: 100%;
+    justify-content: space-evenly;
+    max-width: 1600px;
     flex-wrap: wrap;
     align-items: center;
-    overflow:auto;    
+    padding: 20px 0;
+    
 }
 
-.boitedroite h2{
-    margin: 10px 0px;
-}
-
-.boitedroite p{
-    width: 550px;
-    text-align: justify;
-    height: auto;
-    margin-bottom: 10px;
-}
 
 .boitegauche{
-    margin: 0px 19px 0px 0px;
+    width: 55%;
+    padding-left: 20px;
 }
+
 
 .txtemail{
     margin-bottom: 10px;
     height: 40px;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
     background-color: #d8d8d8;
     border: none;
@@ -236,7 +283,7 @@ h2 h3{
 }
 
 .btneng{
-    width: 250px;
+    width: 300px;
     height: 30px;
     border-radius: 10px;
     border: none;
