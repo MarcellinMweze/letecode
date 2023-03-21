@@ -28,10 +28,10 @@
 
 .navbar{
     width: 100%;
-    background: rgb(15, 15, 54);
+    background: #0f2243;
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    height: 50px;
     align-items: center;
     color: white;
     position: fixed;
@@ -74,7 +74,7 @@
 
 .header{
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color:white;
     display: flex;
     justify-content: center; 
     padding: 20px 0 10px 0;
@@ -92,7 +92,7 @@
 
 .header a{
     border-radius: 12px;
-    background-color: #de2589;
+    background-color: #df2385;
     color: white;
     padding:10px;
     font-size: 1.3em;
@@ -104,7 +104,6 @@
     color: white;
     background-color: #3dbaf3;
     font-weight: bold;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .logosec{
@@ -116,7 +115,7 @@
 .section1{
     display: flex;
     width: 100%;
-    background-color: rgb(212, 212, 214);
+    background-color:#eeee;
     align-items: center;
     height: auto;
     justify-content: right;
@@ -153,179 +152,81 @@ h2 h3{
 
 .footer{
     display: flex;
-    background: rgb(15, 15, 54);
+    background-color: #0f2243;
     height: 150px;
     color: white;
     align-items: center;
     padding-left: 200px;
+    
 }
 
 /* Fin de la première page index en css */
 
 /* Début de la deuxième page communauté en css */
-.nomembre1 {
-    border-radius: 50%;
-    background-color: rgb(235, 235, 240);;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-        
+
+.logopyton{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3dbaf3;
 }
 
-.lab1{
-     text-align: center;
-}
-
-.membre1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
+.grid-pyton{
+    width: 70%;
+    margin: 0 auto;
     align-items: center;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
     
 }
 
-.nomembre2{
-    border-radius: 50%;
-    background-color: rgb(235, 235, 240);
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-}
 
-.membre2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-    align-items: center;
-    
 
-}   
 
-.paramembre{
-    margin-left: 190px;
-    height: 40px;
-}
 
 /* Fin de la deuxième page Communauté en css */
 
 /* Début de la troisème page cours en css */
 
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 80%; 
+    margin:10px auto;
+    max-width: 1300px;
+       
+}
+
+.flexbox-item{
+    width: 300px;
+    height: 300px;
+    margin:15px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.flexbox-item .img-logo{
+    width: 250px;
+    height: 240px;
+    margin: 3px 25px;
+    box-shadow: -1px 1px 4px rgb(22, 21, 21);
+    
+}
+
+.flexbox-item .text{
+    margin: 5px 25px;  
+}
+
 .paracours{
-    margin: 20px 0 10px 197px;
-
-}
-
-.logopyton2{
-    width: 200px;
-    height: 200px;
-    margin: 0 170px 0 150px;
-}
-
-.sectioncom{
     display: flex;
-    width: 100%;
-    background-color: rgb(212, 212, 214);
-    align-items: center;
-    height: auto;
-    justify-content: right;
-    margin-top: 20px;
-                  
+    width: 67%;
+    max-width: 1000px;
+    margin: 30px auto 0px;
 }
 
-.commusection{
-    width: 570px;
-    text-align: justify;
-    margin: 0 80px 0 190px;
-    
-}
-
-.conteneurimg1{
-    display: flex;
-    justify-content: space-evenly;
-    height: 250px;
-    flex-wrap: wrap;
-    width: 96.5%;
-    margin: 0 auto;
-    align-items: center;
-    margin-bottom: 15px;
-    
-    
-}
-
-.img1{
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    
-    
-}
-
-.conteneurimg2{
-    display: flex;
-    width: 96.5%;
-    margin: 0 auto;
-    justify-content: space-evenly;
-    height: 250px;
-    align-items: center;
-    margin-bottom: 60px;
-    flex-wrap: wrap;
-    
-}
-
-.img2{
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    
-} 
-
-
-.enristrement{
-    display: flex;
-    width: 100%;
-    background-color: rgb(235, 235, 240);
-    height: 200px;
-    align-items: center;
-    
-}
-
-.paraenreg{
-    width: 40%;
-    margin: 0 135px 0 200px;
-    flex-wrap: wrap;
-}
-
-.btnenreg{
-    width: 10%;
-    margin: 0 80px 0 75px;
-}
-
-.btn .txemail{
-    height: 30px;
-    width: 200px; 
-    border-radius:8px;
-}
-
-.btn{
-    height: 30px;
-    width: 200px; 
-    border-radius:10px;
-    margin-top: 10px;
-    border: none;
-    background-color: #de2589;
-    color: white;
-    font-size: 1em;
-}
-
-.txtemail{
-    height: 40px;
-    width: 200px; 
-    border: none;
-    padding-left: 10px;
-    border-radius:10px;
-    background-color: rgb(205, 205, 207);
-    color: black;
-}
 
 /* fin de la troisième page Cours en css */
 
@@ -395,7 +296,7 @@ h2 h3{
     border-radius:10px;
     margin-top: 10px;
     border: none;
-    background-color: #de2589;
+    background-color: #df2385;;
     color: white;
     font-size: 1em;
     margin: 15px 100px 35px 100px;
