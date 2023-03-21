@@ -1,21 +1,10 @@
-@font-face {
-    font-family: oswald;
-    src: url('../Fonts/Raleway-VariableFont_wght.ttf');
-}
-
-@font-face {
-    font-family: oswald2;
-    src: url('../Fonts/static/Raleway-ExtraBold.ttf');
-
-}
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family:oswald, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat';
 }
 
 /* Début de la première page index en css */
@@ -106,39 +95,28 @@
     font-weight: bold;
 }
 
-.logosec{
-    width: 300;
-    height: 200px;
-    
-}
-
 .section1{
-    display: flex;
     width: 100%;
-    background-color:#eeee;
+    background-color: #eeee;
+}
+
+.imgtxt{
+    display: flex;
     align-items: center;
-    height: auto;
-    justify-content: right;
-    margin-top: 20px;
-                  
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1300px;
+    justify-content: space-between;
 }
 
-.logosection1{
-    margin: 0 170px 0 200px;
+.cimg .img{
+    height: 150px;
+    width: 300px;
 }
 
-.sectionpara{
-    padding: 10px 0 10px 0;
-    width: 570px;
-    text-align: justify;
-    margin: 0 100px 0 5px;
-    
-}
-
-.gras{
-    text-decoration: underline;
-    font-weight: bold;
-}
+.txt h2 p{
+    width: 100px;
+} 
 
 .section2{
     margin: 0 100px 0 200px;
@@ -169,20 +147,6 @@ h2 h3{
     height: 200px;
     border: 1px solid #3dbaf3;
 }
-
-.grid-pyton{
-    width: 70%;
-    margin: 0 auto;
-    align-items: center;
-    text-align: justify;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
-    
-}
-
-
-
 
 
 /* Fin de la deuxième page Communauté en css */
@@ -279,6 +243,7 @@ h2 h3{
     background-color: #df2385;
     font-size: 1.1em;
     color: white;
+    margin-bottom: 10px;
 }
 
 /* fin de la troisième page Cours en css */
