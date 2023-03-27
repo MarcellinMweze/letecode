@@ -15,109 +15,125 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="navlogo">
-        <img
-          src="photos/logo-trans copy.png"
-          alt="Logo Letecode"
-          class="logoentete"
-        />
-        <span>Letecode</span>
-      </div>
-      <div class="menu-droite">
-        <ul>
-          <li><a href="index.html">Acceuil</a></li>
-          <li><a href="communate.html">Communauté</a></li>
-          <li><a href="cours.html">Cours</a></li>
-          <li><a href="contact.html">Contacts</a></li>
-        </ul>
-      </div>
-    </div>
-    <br /><br />
-    <div class="paracours">
-      <h2>Les Cours</h2>
-    </div>
-    <div class="flexbox">
-      <div class="flexbox-item">
-        <div class="img">
-          <img src="photos/git1.png" alt="" class="img-logo" />
+    <nav class="navigation">
+      <div class="contener">
+        <div>
+          <a href="index.html">
+            <img src="photos/logoletecode.png" alt="Logo Letecode" />
+            <span>Letecode</span>
+          </a>
         </div>
-        <div class="text">
-          <h3>Git et Github</h3>
-          <p>5 heures</p>
+
+        <div>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="index.html">Acceuil</a>
+            </li>
+            <li class="menu-item">
+              <a href="communaute.html">Communauté</a>
+            </li>
+            <li class="menu-item active">
+              <a href="cours.html">Cours</a>
+            </li>
+            <li class="menu-item">
+              <a href="contact.html">Contacts</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="flexbox-item">
-        <div class="img">
-          <img src="photos/html5_0.png" alt="" class="img-logo" />
+    </nav>
+
+    <section class="section">
+      <div class="contener">
+        <div class="paracours">
+          <h2 class="mar-t-20">Les Cours</h2>
         </div>
-        <div class="text">
-          <h3>HTML5</h3>
-          <p>5 heures</p>
-        </div>
-      </div>
-      <div class="flexbox-item">
-        <div class="img">
-          <img src="photos/css.png" alt="" class="img-logo" />
-        </div>
-        <div class="text">
-          <h3>CSS3</h3>
-          <p>5 heures</p>
-        </div>
-      </div>
-      <div class="flexbox-item">
-        <div class="img">
-          <img src="photos/flexbox.png" alt="" class="img-logo" />
-        </div>
-        <div class="text">
-          <h3>FlexBox</h3>
-          <p>5 heures</p>
-        </div>
-      </div>
-      <div class="flexbox-item">
-        <div class="img">
-          <img src="photos/Responsive.png" alt="" class="img-logo" />
-        </div>
-        <div class="text">
-          <h3>Responsive</h3>
-          <p>5 heures</p>
-        </div>
-      </div>
-      <div class="flexbox-item">
-        <div class="img">
-          <img src="photos/js-animations.png" alt="" class="img-logo" />
-        </div>
-        <div class="text">
-          <h3>Animations</h3>
-          <p>5 heures</p>
-        </div>
-      </div>
-    </div>
-    <section class="seceng">
-      <div class="boitelettre">
-        <div class="boitegauche">
-          <h2>Abonnez vous à la boîte <br />aux lettres</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-            quae, porro nemo unde obcaecati odio aperiam labore sed numquam, et
-            nam ipsam laborum. Tempora corrupti quam corporis earum alias.
-            Maiores.
-          </p>
-        </div>
-        <div class="boitedroite">
-          <input
-            type="text"
-            placeholder="Adresse email"
-            class="txtemail"
-          /><br />
-          <button class="btneng">S'abonner</button>
+        <div class="flexbox">
+          <div class="flexbox-item">
+            <div class="img">
+              <img src="photos/git1.png" alt="" class="img-logo" />
+            </div>
+            <div class="text">
+              <h3>Git et Github</h3>
+              <p>5 heures</p>
+            </div>
+          </div>
+          <div class="flexbox-item">
+            <div class="img">
+              <img src="photos/html.png" alt="" class="img-logo" />
+            </div>
+            <div class="text">
+              <h3>HTML5</h3>
+              <p>5 heures</p>
+            </div>
+          </div>
+          <div class="flexbox-item">
+            <div class="img">
+              <img src="photos/css.png" alt="" class="img-logo" />
+            </div>
+            <div class="text">
+              <h3>CSS3</h3>
+              <p>5 heures</p>
+            </div>
+          </div>
+          <div class="flexbox-item">
+            <div class="img">
+              <img src="photos/flexbox.png" alt="" class="img-logo" />
+            </div>
+            <div class="text">
+              <h3>FlexBox</h3>
+              <p>5 heures</p>
+            </div>
+          </div>
+          <div class="flexbox-item">
+            <div class="img">
+              <img src="photos/Responsive.png" alt="" class="img-logo" />
+            </div>
+            <div class="text">
+              <h3>Responsive</h3>
+              <p>5 heures</p>
+            </div>
+          </div>
+          <div class="flexbox-item">
+            <div class="img">
+              <img src="photos/animation.png" alt="" class="img-logo" />
+            </div>
+            <div class="text">
+              <h3>Animations</h3>
+              <p>5 heures</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <div class="footer">
-      <div class="txtfooter">
-        <p>Dévellopé par Letecode ©2023</p>
+
+    <section class="section boite">
+      <div class="contener">
+        <div class="boitelettre">
+          <div class="boite-item">
+            <h2 class="mar-t-10">Abonnez vous à la boîte <br />aux lettres</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              quae, porro nemo unde obcaecati odio aperiam labore sed numquam,
+              et nam ipsam laborum. Tempora corrupti quam corporis earum alias.
+              Maiores.
+            </p>
+          </div>
+          <div class="boite-item al-center">
+            <div class="texte">
+              <input type="text" placeholder="Adresse email" class="txtemail" />
+            </div>
+            <div>
+              <button class="btn2">S'abonner</button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <footer>
+      <div class="contener">
+        <p>Développé par Letecode &copy;2023</p>
+      </div>
+    </footer>
   </body>
 </html>
