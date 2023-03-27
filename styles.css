@@ -78,6 +78,10 @@ body{
     
 }
 
+.navigation span{
+    font-weight: bolder;
+}
+
 .navigation img{
     width: 70px;
     margin-right: 10px;
