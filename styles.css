@@ -231,6 +231,18 @@ footer{
 }
 
 
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .menu{
+        display: none;
+    }
+    .contener .bloc-item{
+        max-width: 90%;
+    }
+}
+
+
 
 
 
