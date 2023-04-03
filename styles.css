@@ -153,13 +153,13 @@ footer{
     margin: 0 auto 40px auto;
 }
 
-.contener .flexbox{
+.contener .grid-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-.flexbox .flexbox-item .img-logo{
+.grid-box .grid-item .img-logo{
     width: 280px;
     height: 300px;
     border: 1px solid #0f2243; 

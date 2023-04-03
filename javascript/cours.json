@@ -1,0 +1,34 @@
+[
+    {
+        "picture":"photos/git.png",
+        "intitule":"Git et Github",
+        "temps":5
+        
+    },
+    {
+        "picture":"photos/html.png",
+        "intitule":"HTML5",
+        "temps":5
+    },
+    {
+        "picture":"photos/css.png",
+        "intitule":"CSS3",
+        "temps":5
+    },
+    {
+        "picture":"photos/flexbox.png",
+        "intitule":"Flexbox",
+        "temps":5
+    },
+    {
+        "picture":"photos/responsive.png",
+        "intitule":"Responsive",
+        "temps":5
+    },
+    {
+        "picture":"photos/animation.png",
+        "intitule":"Animations",
+        "temps":5
+    }
+ 
+]
