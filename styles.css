@@ -130,7 +130,9 @@ footer{
    color: #fff;
 }
 
-.section.membres .contener{
+/* Page communauté */
+
+.section.membres .contener-membres{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;   
@@ -138,7 +140,6 @@ footer{
 
 .contener .img-membre img{
     height: 200px;
-    width: 200px;
     border-radius: 50%;
 }
 
