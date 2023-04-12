@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 body{
@@ -25,6 +26,7 @@ body{
 
 .mar-t-20{
     margin-bottom: 20px;
+    
 }
 
 .mar-t-40{
@@ -234,13 +236,45 @@ footer{
 
 /* Responsive */
 
-@media screen and (max-width:900px) {
-    .menu{
-        display: none;
+@media screen and (max-width:1000px) {
+    
+    .navigation .menu-item{
+        display:none;
     }
-    .contener .bloc-item{
-        max-width: 90%;
+
+    .navigation .contener a{
+        margin-left: 8px;
     }
+
+    .contener{
+        width: 100%;
+    }
+
+    .section.learn .contener{
+        flex-direction: column;
+    }
+
+    .contener .bloc-item.al-center img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .section.para .contener .mar-t-20{
+       margin-left: 8px;
+    }
+
+    .section.para .contener .mar-t-10{
+        margin-left: 8px;
+     }
+
+     .section.para .contener h3, li{
+        margin-left: 8px;
+     }
+
+     footer p{
+        margin-left: 8px;
+     }
+
 }
 
 
