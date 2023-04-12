@@ -254,10 +254,18 @@ footer{
         flex-direction: column;
     }
 
-    .contener .bloc-item.al-center img{
-        width: 80%;
-        margin-bottom: 20px;
+    .contener .bloc-item.al-center{
+        text-align: left;
     }
+
+    .contener .bloc-item.al-center img{
+        width: 50%;
+    }
+
+   .section.learn .contener .bloc-item{
+        width: 100%;
+        margin-left: 10px;
+   }
 
     .section.para .contener .mar-t-20{
        margin-left: 8px;
