@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* list-style-type: none; */
+ 
 }
 
 body{
@@ -34,6 +34,12 @@ body{
 
 .mar-t-40{
     margin-bottom: 40px;
+}
+
+.btn-ptmenu{
+    display: none;
+    padding:5px;
+    font-size: 25px;
 }
 
 .btn{
@@ -264,7 +270,11 @@ footer{
         padding:0px 20px;
     }
 
-    .navigation .contener .menu{
+    .navigation .menu{
         display: none;
+    }
+
+    .btn-ptmenu{
+        display: flex;
     }
 }
