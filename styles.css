@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
- 
+    
 }
 
 body{
@@ -178,7 +178,8 @@ footer{
 
 .contener .boitelettre{
     display: flex;
-    
+    padding:5px;
+    font-size: 25px;
 }
 
 .boite-item{
@@ -270,11 +271,44 @@ footer{
         padding:0px 20px;
     }
 
-    .navigation .menu{
-        display: none;
+    .btn-ptmenu{
+        display: block;
+        font-size: 25px;
+        font-weight: bold;
     }
 
-    .btn-ptmenu{
-        display: flex;
+    .navigation .menu{
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        background-color: #eeeeee92;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        margin-left: -100%;
+        transition: all .5s ease;
+        
     }
+
+    .navigation .menu.nommenu{
+        margin-left: 0px;
+    }    
+
+    .navigation .menu-item.active{
+        border-bottom: 2px solid black;
+    }
+
+    .navigation .menu-item a {
+        color:black;
+    }
+
+    .navigation .menu-item {
+        padding: 25px 0;
+    }
+    
 }
+
+
