@@ -145,7 +145,7 @@ footer{
 
 .section.membres .contener-membres{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
     gap: 40px;   
 }
 
@@ -154,21 +154,35 @@ footer{
     border-radius: 50%;
 }
 
+.contener .contener-membres .membres{
+    text-align: center;
+}
+
 .membres h3{
+    
     text-align: center;
     margin-top: 20px;
+    
 }
 
 .sectmembres{
-    width: 900px;
-    margin: 0 auto 40px auto;
+    max-width: 1000px;
+    margin: 0px 20px 20px 20px;
+    
 }
 
 .contener .grid-box{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 20px;
+    
 }
+
+.grid-box .grid-item img{
+    text-align: center;
+}
+
+
 
 .grid-box .grid-item .img-logo{
     width: 280px;
@@ -207,7 +221,7 @@ footer{
 
 .contener .champs{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     gap: 20px;
 }
 
@@ -308,7 +322,31 @@ footer{
     .navigation .menu-item {
         padding: 25px 0;
     }
+
+    .contener .boitelettre{
+        display: block;
+    }
+
+    .boite-item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .boite-item.al-center{
+        text-align: start;
+    }
+
+    .boite-item.al-center .txtemail{
+        width: 100%;
+    }
+
+    .btn2{
+        width:100% ;
+    }
     
 }
+
+
+
 
 
