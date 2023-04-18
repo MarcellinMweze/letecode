@@ -143,6 +143,10 @@ footer{
 
 /* Page communauté */
 
+.section.membres{
+    margin-left: 150px;
+}
+
 .section.membres .contener-membres{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
@@ -218,6 +222,13 @@ footer{
     background-color: #eee;
 }
 
+.section.boite h2{
+    font-size:24px;
+}
+
+.section.boite p{
+    font-size:16px;
+}
 
 .contener .champs{
     display: grid;
