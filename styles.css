@@ -18,6 +18,11 @@ body{
     
 }
 
+.sectmembres{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .section{
     padding: 50px 0px;
     
@@ -143,14 +148,14 @@ footer{
 
 /* Page communauté */
 
-.section.membres{
-    margin-left: 150px;
-}
-
 .section.membres .contener-membres{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
     gap: 40px;   
+}
+
+.section.membres .contener h2{
+    margin-bottom: 50px;
 }
 
 .contener .img-membre img{
